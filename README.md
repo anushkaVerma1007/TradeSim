@@ -65,7 +65,6 @@ Trade executed: BuyOrderID 1 SellOrderID 2 at price $94.500000 for quantity 100
 ```
 high-frequency-trading/
 ├── main.cpp                  # Core logic and menu interface
-├── trades.log                # Log of executed trades (created on run)
 └── README.md                 # Project documentation
 ```
 
