@@ -6,12 +6,12 @@ A simplified order matching system that simulates stock exchange trading engines
 
 ## 🚀 Features
 
-- ✅ **Order Matching** — Price-time priority with support for partial order fills  
-- 📘 **Order Book** — Real-time view of buy/sell order queues  
-- 📝 **Trade Logging** — Logs trades to both the console and `trades.log` file  
-- 🔒 **Risk Management** — Rejects orders exceeding 1000 shares  
-- 🖥️ **Interactive Menu** — Simple and clean user interface  
-- 🧪 **Random Orders** — Automatically generate test orders for load simulation
+- **Order Matching** — Price-time priority with support for partial order fills  
+- **Order Book** — Real-time view of buy/sell order queues  
+- **Trade Logging** — Logs trades to both the console and `trades.log` file  
+- **Risk Management** — Rejects orders exceeding 1000 shares  
+- **Interactive Menu** — Simple and clean user interface  
+- **Random Orders** — Automatically generate test orders for load simulation
 
 ---
 
@@ -52,11 +52,11 @@ Trade executed: BuyOrderID 1 SellOrderID 2 at price $94.500000 for quantity 100
 
 ## ⚙️ How It Works
 
-- 📈 **Buy Orders** match with the lowest priced available sell orders
-- 📉 **Sell Orders** match with the highest priced available buy orders
-- ✅ **Matching Condition:** Buy price ≥ Sell price
-- ⏱️ **Priority Rules:** Better price wins; otherwise, earlier order timestamp wins
-- 🔁 **Partial Fills:** Orders can be partially matched if quantities differ
+- **Buy Orders** match with the lowest priced available sell orders
+- **Sell Orders** match with the highest priced available buy orders
+- **Matching Condition:** Buy price ≥ Sell price
+- **Priority Rules:** Better price wins; otherwise, earlier order timestamp wins
+- **Partial Fills:** Orders can be partially matched if quantities differ
 
 ---
 
