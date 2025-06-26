@@ -1,4 +1,4 @@
-# High-Frequency Trading Engine
+# TradeSim – A High-Frequency Trading Engine in C++
 
 A simplified order matching system that simulates stock exchange trading engines using price-time priority logic and supports partial order execution.
 
